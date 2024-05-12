@@ -4,7 +4,11 @@
 >```
 >Maven 4.0
 >Java se 8
+>Junit
 >```
+
+# Observação
+## No post deixei um teste falhando na hora de fazer o assert, para poder confirmar que a programação esta funcionando
 
 
 
