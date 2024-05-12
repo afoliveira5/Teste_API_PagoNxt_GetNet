@@ -1,4 +1,4 @@
-name: Java
+name: Teste_API_PagoNxt_GetNet
 
 on:
   push:
