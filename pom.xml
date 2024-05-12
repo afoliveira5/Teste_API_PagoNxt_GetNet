@@ -24,6 +24,12 @@
 			<scope>test</scope>
 		</dependency>
 
+		<configuration>
+          <includes>
+            <include>**/*test.*</include>
+          </includes>
+        </configuration>
+
 	</dependencies>
 
 	
