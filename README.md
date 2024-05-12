@@ -8,7 +8,7 @@
 >```
 
 # Observação
-## No post deixei um teste falhando na hora de fazer o assert, para poder confirmar que a programação esta funcionando
+## No VERBO POST EU ESTOU DEIXANDO teste numero 3 falhando ao fazer o assert, para poder confirmar que a programação esta funcionando
 
 
 
