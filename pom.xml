@@ -8,8 +8,7 @@
 
  <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-            <include>**/*test.*</include>
-  </properties>
+    </properties>
 
 	<dependencies>
 		<dependency>
@@ -23,6 +22,7 @@
 			<artifactId>junit</artifactId>
 			<version>4.13.2</version>
 			<scope>test</scope>
+			<include>**/*test.*</include>
 		</dependency>
 
 	</dependencies>
