@@ -7,9 +7,10 @@
 >Junit
 >```
 
-# Observação
-## No VERBO POST EU ESTOU DEIXANDO teste numero 3 falhando ao fazer o assert, para poder confirmar que a programação esta funcionando
-
+# Observações
+>## No VERBO POST EU ESTOU DEIXANDO teste numero 3 falhando ao fazer o assert, para poder confirmar que a programação esta funcionando
+>## Não tem como validar campo obrigatorio A api permite salvar usuário de qualquer jeito
+>
 
 
 
