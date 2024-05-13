@@ -6,7 +6,7 @@ import static org.hamcrest.Matchers.*;
 import org.hamcrest.Matchers;
 import org.junit.Test;
 
-public class RequisiçãoPost {
+public class RequisiçãoPostTest {
 	@Test
 	public void deveSalvarUsuárioAparecido() {
 		given().log().all().contentType("application/json").body("{\"name\":\"Aparecido\",\"job\":\"teamLead\"}").when()

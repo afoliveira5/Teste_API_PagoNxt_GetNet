@@ -6,7 +6,7 @@ import static org.hamcrest.Matchers.notNullValue;
 
 import org.junit.Test;
 
-public class RequisiçãoDelete {
+public class RequisiçãoDeleteTest {
 	@Test
 	public void deveSalvarUsuárioAlef() {
 		given().log().all().contentType("application/json")
