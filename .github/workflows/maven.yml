@@ -19,5 +19,8 @@ jobs:
           java-version: '8'
           distribution: 'adopt'
 
+      - name: Build
+        run: mvn install
+
       - name: Test
         run: mvn '-Dtest=br.ce.aparecido.*Test' test
