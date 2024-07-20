@@ -20,7 +20,7 @@ jobs:
           distribution: 'adopt'
 
       - name: Build
-        run: mvn --batch-mode -DskipTests
+        run: mvn install
 
       - name: Test
         run: mvn '-Dtest=br.ce.aparecido.*Test' test
