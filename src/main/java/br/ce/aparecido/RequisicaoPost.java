@@ -15,7 +15,7 @@ import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class RequisiçãoPost {
+public class RequisicaoPost {
 	@BeforeClass
 	public static void primeiroPassoDoPost() {
 		RestAssured.baseURI = "https://reqres.in";
@@ -23,7 +23,7 @@ public class RequisiçãoPost {
 	}
 	
 @Test
-	public void deveSalvarUsuárioAparecidoViaObjeto() {
+	public void deveSalvarUsuárioAparecidoVia() {
 		User user = new User ("Aparecido","TeamLead");
 		given()
 		.log().all()
