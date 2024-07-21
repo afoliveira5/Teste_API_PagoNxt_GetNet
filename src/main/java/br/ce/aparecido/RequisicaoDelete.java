@@ -7,7 +7,7 @@ import static org.hamcrest.Matchers.notNullValue;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class RequisiçãoDelete {
+public class RequisicaoDelete {
 	
 	@Test
 	public void deveSalvarUsuárioAlef() {
