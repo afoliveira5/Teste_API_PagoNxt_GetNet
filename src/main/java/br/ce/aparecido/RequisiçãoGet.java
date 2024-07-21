@@ -8,7 +8,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
 
-public class RequisiçãoGet {
+public class RequisicaoGet {
 
 	@Test
 	public void devoVerTodosOsUsers() {
