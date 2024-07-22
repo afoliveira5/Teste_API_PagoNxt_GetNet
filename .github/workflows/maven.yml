@@ -20,7 +20,7 @@ jobs:
           distribution: 'adopt'
 
       - name: Build
-        run: mvn install
+        run: mvn clean install
 
       - name: Test
-        run: mvn clean install
+        run: mvn '-Dtest=br.ce.aparecido.*Test' test
