@@ -23,4 +23,4 @@ jobs:
         run: mvn install
 
       - name: Test
-        run: mvn '-Dtest=br.ce.aparecido.*Test' test
+        run: mvn clean install
